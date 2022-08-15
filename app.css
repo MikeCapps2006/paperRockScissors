@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 75%;
+    height: 100vh;
+    background-color: #93f6fa;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.scores, #gameDeclaration {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C2FA93;
+    min-height: 100px;
+}
+
+#gameButtons {
+    display: none;
+    padding: 5px;
+}
+
+#gameButtons button {
+    padding: 5px;
+    margin: 15px;
+}
+
+#btnNewGame {
+    margin: 45px auto;
+    padding: 15px;
+}
+
+#gameDeclaration {
+    display: none;
+}
